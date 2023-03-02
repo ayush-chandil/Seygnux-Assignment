@@ -1,0 +1,51 @@
+#banner {
+  width: 100%;
+  padding: 30px;
+  background: linear-gradient(to right, #1b8be0, #00a3e0);
+  text-align: center;
+}
+.banner-content {
+  width: 60%;
+  margin: auto;
+  font-family: var(--major-font-2);
+  color: #ffffff;
+  font-size: 16px;
+}
+.learn-btn {
+  border: none;
+  background-color: white;
+  color: blueviolet;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+  position: relative;
+  margin-left: 10px;
+  top: -2px;
+}
+@media only screen and (max-width: 767px) {
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-content span {
+    margin-bottom: 20px;
+  }
+  .learn-btn {
+    width: 25%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .banner-content {
+    width: 100%;
+    font-size: 14px;
+  }
+  .learn-btn {
+    font-size: 12px;
+  }
+  .learn-btn {
+    width: 50%;
+    margin: auto;
+  }
+}
